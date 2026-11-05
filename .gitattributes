@@ -1,0 +1,35 @@
+# Automatically normalize text files
+* text=auto
+
+# Source code
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Configuration and documentation
+*.json text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.xml text eol=lf
+
+# Docker, environment templates and scripts
+Dockerfile text eol=lf
+*.Dockerfile text eol=lf
+.dockerignore text eol=lf
+.env.example text eol=lf
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.ico binary

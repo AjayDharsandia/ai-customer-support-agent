@@ -1,0 +1,4 @@
+// Reference only: the active, validated configuration already lives in vercel.ts.
+// Do not copy this file over it or create a conflicting vercel.json.
+// Set BACKEND_API_URL in each Vercel environment; no hostname belongs in source.
+export { config } from './vercel';
